@@ -38,7 +38,8 @@ body {
     list-style:none;}
 
 .link{
-    text-decoration: none;}
+    text-decoration: none;
+}
 
 .visually-hidden{
     position: absolute;
