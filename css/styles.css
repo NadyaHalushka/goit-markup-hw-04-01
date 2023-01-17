@@ -131,6 +131,8 @@ font-weight: 800;
 .header-list{
     display: flex;
     gap:40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-item{}
@@ -183,6 +185,7 @@ font-weight: 500;
 
     .hero{
     background: #2E2F42;
+    padding-top: 188px;
      padding-bottom: 188px;
      background-image: var(--bg-gradient),
      url(../images/hero/hero-bg.jpg);
@@ -199,7 +202,6 @@ font-size: 56px;
 line-height:1.07;
 color: #FFFFFF;
 margin-bottom: 48px;
-padding-top: 188px;
 max-width: 495px;
 margin-left: auto;
 margin-right: auto;
@@ -208,19 +210,20 @@ text-align: center;
 
 
     .hero-btn{
-font-family: inherit;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-cursor:pointer;
-background:var(--first-btn-color);
-display:block;
-margin: 0 auto;
-border-radius: 4px;
-padding: 16px 32px;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        cursor:pointer;
+        background:var(--first-btn-color);
+        display:block;
+        margin: 0 auto;
+        border-radius: 4px;
+        padding: 16px 32px;
+        border: 0ch;
     }
 
     .hero-btn:hover,
@@ -437,17 +440,17 @@ justify-content: center;
     /*----------PORTFOLIO----------*/
 
     .portfolio{
-        padding-top: 0px;
-        padding-bottom: 72px;
+        padding-top: 96px;
+        padding-bottom: 120px;
     }
 
     
     .portfolio-list{
-        padding-top: 96px;
         gap:24px;
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 72px;
     }
 
     .portfolio-item{}
@@ -471,7 +474,6 @@ width: 101px;
 height: 48px;
 justify-content: center;
 align-items: center;
-margin-bottom: 72px;
 }
 
 
