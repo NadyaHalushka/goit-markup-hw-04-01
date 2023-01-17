@@ -104,8 +104,6 @@ color:var(--text-color)
     display: flex;
     align-items: center;
     margin-right: auto;
-    padding-top: 24px;
-    padding-bottom: 24px;
 
 }
 
@@ -132,8 +130,7 @@ font-weight: 800;
 .header-list{
     display: flex;
     gap:40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+   
 }
 
 .header-item{}
@@ -143,6 +140,8 @@ font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+     padding-top: 24px;
+    padding-bottom: 24px;
 
 }
 
@@ -276,7 +275,7 @@ justify-content: center;
     /*---------GALLERY-----------*/
 
     .gallery{
-        padding-top: 0;
+        padding-top: ;
         padding-bottom: 120px;
     }
 
@@ -310,7 +309,7 @@ justify-content: center;
 
     .team{
         background: #F4F4FD;
-        padding-top: 0;
+        padding-top: 120px;
         padding-bottom: 120px;
     }
 
